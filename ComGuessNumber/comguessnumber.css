@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(#acdcdd, #5d8889);
+  min-height: 100vh; /* Gør at gradient fylder hele skærmen */
+  margin: 5%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+  font-family: "Impact", Courier, monospace;
+  font-size: 80px;
+  color: #3d1712;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.buttons {
+  border-radius: 40px;
+  border: none;
+  padding: 20px;
+  width: 200px;
+  background-color: #3d1712;
+  color: #acdcdd;
+  font-size: larger;
+}
+
+.hidden {
+  display: none;
+}
+
+.celebration {
+  animation: wave 1.2s ease-in-out 8;
+}
+
+@keyframes wave {
+  0% {
+    transform: scaleX(1) rotate(0deg);
+  }
+
+  25% {
+    transform: scaleX(-1) rotate(-8deg);
+  }
+
+  50% {
+    transform: scaleX(1) rotate(8deg);
+  }
+
+  75% {
+    transform: scaleX(-1) rotate(-5deg);
+  }
+
+  100% {
+    transform: scaleX(1) rotate(0deg);
+  }
+}
+
+.graphic img {
+  display: flex;
+  justify-self: center;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
