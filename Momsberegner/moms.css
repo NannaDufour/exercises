@@ -1,0 +1,30 @@
+body {
+  background-color: beige;
+}
+
+.moms-container {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  margin: 10%;
+  border-radius: 40px;
+  background-color: rgb(158, 116, 54);
+  padding: 40px;
+  color: blanchedalmond;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 2px;
+}
+
+input {
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+}
+
+button {
+  background-color: rgb(73, 14, 14);
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  color: antiquewhite;
+}
