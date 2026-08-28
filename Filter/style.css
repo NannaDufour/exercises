@@ -1,0 +1,65 @@
+body {
+  background-color: #a0b5b4;
+}
+
+table {
+  background-color: #acb090;
+  border-collapse: collapse;
+  border: 5px solid #313326;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  width: 50%;
+  margin: 5% auto;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: #6d602b;
+}
+
+th,
+td {
+  border: 1px solid #313326;
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: #acb090;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  position: fixed;
+  bottom: 35%;
+  width: 100%;
+}
+
+button {
+  border-radius: 60px;
+  border: 0;
+  width: 10%;
+  padding: 20px;
+  background-color: #422eb7;
+  color: azure;
+}
