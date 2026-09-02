@@ -1,0 +1,13 @@
+:root {
+  --color-background: #dfc1c1;
+  --color-grid: rgb(123, 163, 215) 3d3;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+tbody {
+  background-color: var(--color-grid);
+  border: 5px;
+}
