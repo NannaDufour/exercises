@@ -1,0 +1,26 @@
+body {
+  background-color: var(--bg);
+  margin: 0;
+}
+
+header {
+  background-color: var(--header-col);
+  color: var(--text-col);
+  padding: 5%;
+  font-size: xx-large;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  margin: 5%;
+}
+
+footer {
+  background-color: var(--footer-col);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 3%;
+  font-size: x-large;
+}

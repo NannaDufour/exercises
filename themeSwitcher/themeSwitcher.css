@@ -1,0 +1,20 @@
+[data-theme="hawaii"] {
+  --bg: rgb(238, 52, 154);
+  --header-col: rgb(198, 192, 21);
+  --footer-col: rgb(0, 234, 255);
+  --text-col: rgb(0, 0, 0);
+}
+
+[data-theme="dark"] {
+  --bg: rgb(122, 105, 77);
+  --header-col: rgb(71, 64, 35);
+  --footer-col: rgb(67, 52, 52);
+  --text-col: white;
+}
+
+[data-theme="light"] {
+  --bg: rgb(209, 175, 175);
+  --header-col: rgb(213, 207, 187);
+  --footer-col: rgb(221, 192, 192);
+  --text-col: rgb(0, 0, 0);
+}
