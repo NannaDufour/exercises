@@ -37,3 +37,7 @@ function pickLanguage() {
 }
 
 pickLanguage();
+
+// Anden løsning
+
+//
